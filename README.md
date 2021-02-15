@@ -1,46 +1,62 @@
 # Research
 
-*Our research is based on*
-
-This is a repository of research that is guiding the development of Proxima. We have authored some of these papers for the networking and data layer of our Protocol. Several other papers have been included because they have promising applications in the blockchain data layer.
-
-### Efficient Peer-to-Peer Networking
+*This is a repository of research that is guiding the development of Proxima. We have authored some of these papers for the networking and data layer of our Protocol. Several other papers have been included because they have promising applications in the blockchain data layer.*
 
 
-### B+ Merkle Tree
+The goal of the Proxima Protocol is to create a decentralized blockchain agnostic data layer that provides rich and performant queries on indexed data. In order to accomplish this goal, our research has focused on several areas of interest:
+
+- **Authenticated data structures**
+- **Networking**
+- **Decentralized payments and authentication**
+- **Optimized rollups**
+
+
+## B+ Merkle Tree
+
+
+**Title**
+(link)
+PDF Screenshot
 
 
 
-## Other Research
+## Efficient Peer-to-Peer Networking
+
+**Title**
+(link)
+PDF Screenshot
+
+
+
+
+## Other Areas of Interest
 Along with the papers we have authored. There are several papers and ideas that we draw inspiration from.
 
-### Rollouts
+### Optimistic and Zk-Rollups
+Optimistic and zk-rollups utilize a chain of state transitions. They can be used to construct fraud proofs, that can be verified by stateless clients. 
 
-Fraud Proofs
+- Fraud Proofs
+- State transitions
 
-State transitions
+They are used by 
+
+**Important links and papers**
+- Fraud Proofs
+- State transitions
+
 
 ### Decentralized payments and authentication
-API tokens
-limit tokens
-ID
-pre-conditions
-Multiple API tokens
-Minting payments
-
-Micro-transactions
-Packet-payments
-Stake
-API Tokens
-ID
+Signature-based authentication, transaction-based authentication.
 
 
-<!--
-Data
+**Important links and papers**
+- Packet-payments
+- Micro-transactions
+- Multiple API tokens
+- Minting payments
+- API tokens
+- limit tokens
 
-- Handshake
-- VSQL
-- IntegriDB
-- SGX Paper
-- LT_Hash
--->
+
+
+
