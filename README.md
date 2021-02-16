@@ -35,7 +35,7 @@ While researching a method for synchronization and routing within the network, w
 Along with the papers we have authored. There are several papers and ideas that we draw inspiration from.
 
 ### Optimistic and Zk-Rollups
-Optimistic and zk-rollups  utilize a chain of state transitions. They can be used to construct fraud proofs, that can be verified by stateless clients. Our system
+Optimistic and zk-rollups are used in the creation of fraud proofs, which are constructed by auditting the state transitions of the data within the query. The further benefit of rollups is that they can be verified by stateless clients, which makes them feasible for client-side usage.
 
 **Important links and papers**
 - **Rollups**
