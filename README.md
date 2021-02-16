@@ -11,19 +11,23 @@
 ## B+ Merkle Tree
 The primary area of focus was authenticated data structures. There exists a large body of research on authenticated data structures, but this research has pushed towards unordered, batched, zero-knowledge solutions like RSA accumulators. The B+ Merkle tree, the data structure that we developed, optimizes efficient proofs and fast range queries so that it can play the role of an ordered authenticated index for a  performant authenticated database. 
 
-**Title**
-(link)
-PDF Screenshot
+
+> ### **Dynamic B+ Merkle Tree with Efficient Proofs**
+> 
+> *A recursive data structure that mimics a B+ tree, with polynomial commitments to provide constant-sized intranode proofs with arbitrary branching factors. This 
+> structure is designed to act as a database index to enable range proofs for authenticated relational databases.*
+> 
+> *(https://arxiv.org/pdf/2006.01994.pdf)*
 
 
 ## Efficient Peer-to-Peer Networking
 While researching a method for synchronization and routing within the network, we decided to use a hybrid of guassian mixture models and location-based addressing to construct the distributed hash tables of peers within the network. This approach was designed to lower the latency of individual message paths,  as well as the overall load on the network. This methodology for network addressing will be utilized for the distribution of data across geographies. 
 
-**Title**
-(link)
-PDF Screenshot
-
-
+> ### **Proximity-based Networking: Small world overlays optimized with particle swarm optimization**
+> 
+> *A distributed peer-to-peer network that uses dynamic Gaussian Mixture Models to build a small-world distributed hash table that ensures efficient and low latency message routing.*
+> 
+> *(https://arxiv.org/abs/2006.02006)*
 
 
 
