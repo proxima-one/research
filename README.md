@@ -9,19 +9,20 @@
 
 
 ## B+ Merkle Tree
-
+The primary area of focus was authenticated data structures. There exists a large body of research on authenticated data structures, but this research has pushed towards unordered, batched, zero-knowledge solutions like RSA accumulators. The B+ Merkle tree, the data structure that we developed, optimizes efficient proofs and fast range queries so that it can play the role of an ordered authenticated index for a  performant authenticated database. 
 
 **Title**
 (link)
 PDF Screenshot
-
 
 
 ## Efficient Peer-to-Peer Networking
+While researching a method for synchronization and routing within the network, we decided to use a hybrid of guassian mixture models and location-based addressing to construct the distributed hash tables of peers within the network. This approach was designed to lower the latency of individual message paths,  as well as the overall load on the network. This methodology for network addressing will be utilized for the distribution of data across geographies. 
 
 **Title**
 (link)
 PDF Screenshot
+
 
 
 
@@ -30,21 +31,16 @@ PDF Screenshot
 Along with the papers we have authored. There are several papers and ideas that we draw inspiration from.
 
 ### Optimistic and Zk-Rollups
-Optimistic and zk-rollups utilize a chain of state transitions. They can be used to construct fraud proofs, that can be verified by stateless clients. 
-
-- Fraud Proofs
-- State transitions
-
-They are used by 
+Optimistic and zk-rollups  utilize a chain of state transitions. They can be used to construct fraud proofs, that can be verified by stateless clients. Our system
 
 **Important links and papers**
 - **Rollups**
+
 https://dyor-crypto.fandom.com/wiki/Rollups
 
 
-
 ### Decentralized payments and authentication
-Signature-based authentication, transaction-based authentication.
+Decentralized payments are used as the incentive and authorization mechanism for the Proxima Protocol. Our initial focus is on integrating a hybrid solution for payments and authentication. It would include authentication based on a staked addresses signatures along with the potential authentication relying on the distribution of micro-transactions, or packetized rewards.
 
 
 #### **Important links and papers**
